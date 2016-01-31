@@ -23,6 +23,7 @@
 <ul class="list">
 	<li id="maker"><a href="http://www.cryptduino.org" target="_blank">Cryptduino</a> - Big crypto for little things.</li>
 	<li id="maker"><a href="https://www.whitehouse.gov/the-press-office/2015/08/04/fact-sheet-president-obama-announces-new-commitments-investors-companies">I-Corps</a> - a great tool for doing more of what matters, faster</li>
+	<li> Trying not to sound like <a href="https://www.youtube.com/watch?v=WnPjqt6vEzA">this</a>
 </ul>
 
 <!-- this is a comment -->
@@ -36,6 +37,7 @@
 		<td><img class="resize" src="AES.png" alt="AES cipher"></td>
 	  </tr>
 </table>
+
 
 
 <!-- <h3>Schedule</h3>
@@ -62,4 +64,22 @@
 <!-- <img src="https://imgs.xkcd.com/comics/security.png" alt="xkcd pic"/>
  -->
 </body>
+
+<button id="clickMe" onclick="sayHi()">Click Me!</button>
+
+<script type="text/javascript">
+
+function sayHi() {
+    alert ('Hi!');
+}
+
+var myElement = document.getElementById("clickMe");
+
+myElement.onmouseouver = function(){
+	console.log("hi there");
+}
+
+
+</script>
+
 </html>

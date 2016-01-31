@@ -4,6 +4,14 @@ h1,h2,p{
 	font-size: 16px;
 }
 
+body {
+  background-attachment: fixed;
+  background-image: url(horizon.jpeg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .list{
 	background-color: white;
 	font-size: large;
@@ -21,6 +29,16 @@ h1,h2,p{
 }
 
 img.resize{
-   max-width:85%;
-   max-height:85%;
+   max-width:80%;
+   max-height:80%;
+}
+
+.resize{
+	border: 1px;
+	margin: 5px 5px 5px 5px;
+}
+
+#center{
+	margin: auto;
+  	width: 300px;
 }
